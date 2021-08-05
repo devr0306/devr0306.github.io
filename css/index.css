@@ -42,6 +42,7 @@ body {
   position: absolute;
   top: 45%;
   left: 50%;
+  width: 100%;
   transform: translate(-50%, -50%);
 }
 
@@ -53,7 +54,11 @@ body {
   font-size: 4rem;
 }
 
-.name::before {
+.name:hover {
+  text-shadow: -2px -2px 1px var(--orange);
+}
+
+/* .name::before {
   content: "Dev Randalpura";
   z-index: -2;
   width: 100%;
@@ -65,7 +70,7 @@ body {
 
 .name:hover::before {
   transform: translate(-2px, -2px);
-}
+} */
 
 #social_links {
   position: absolute;
@@ -86,7 +91,7 @@ body {
 } */
 
 #social_links * {
-  display: inline-block;
+  display: inline;
   margin: auto 30px;
   color: var(--grey);
   font-size: 4rem;
@@ -99,7 +104,8 @@ body {
 .intro > .fas {
   position: absolute;
   left: 50%;
-  bottom: 70px;
+  top: 85vh;
+  display: block;
   font-size: 3rem;
   color: var(--blue);
   animation: up_and_down 1.7s infinite;
@@ -141,7 +147,7 @@ body {
 }
 
 .intro_para {
-  font-size: 1.5rem;
+  font-size: clamp(0.7rem, 2vw, 1.5rem);
   font-weight: 500;
   width: 50vw;
   margin: auto;
@@ -187,8 +193,30 @@ body {
   }
 }
 
-/* @media screen and (max-width: 700px) {
-  .name {
-    font-size: 2rem;
+@media screen and (max-width: 1057px) {
+  .name,
+  .second_part h1 {
+    font-size: 7vw;
   }
-} */
+
+  #social_links *,
+  .intro > .fas {
+    font-size: 5.5vw;
+  }
+
+  #social_links * {
+    margin: auto 2vw;
+  }
+
+  .intro > .fas {
+    top: 80vh;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .name,
+  #social_links *,
+  .intro > .fas {
+    font-size: 6.5vw;
+  }
+}
