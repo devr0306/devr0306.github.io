@@ -215,8 +215,12 @@ body {
 
 @media screen and (max-width: 550px) {
   .name,
+  .second_part h1 {
+    font-size: min(50px, 15vw);
+  }
+
   #social_links *,
   .intro > .fas {
-    font-size: 6.5vw;
+    font-size: min(50px, 8vw);
   }
 }
