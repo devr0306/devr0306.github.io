@@ -1,0 +1,26 @@
+.project-link-container {
+  color: var(--dark_blue);
+}
+
+.project-container {
+  width: 200px;
+  border-radius: 20px 20px 15px 15px;
+  padding-bottom: 20px;
+  align-items: center;
+  display: inline-block;
+  margin: 0 50px;
+}
+
+.project-image {
+  height: 200px;
+  width: 200px;
+  border-radius: 20px;
+}
+
+.project-text {
+  margin-top: 10px;
+  text-align: center;
+  font-weight: 600;
+  font-size: 20px;
+  font-family: sans-serif;
+}
