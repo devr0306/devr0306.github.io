@@ -44,29 +44,13 @@ function Homepage() {
         <h1>About Me</h1>
 
         <p class="intro_para">
-          I am a rising Junior at the University of Texas at Austin majoring in
-          Computer Science with a minor in Entrepreneurship and have five years
-          of experience in the field which includes full stack development,
-          cloud computing, and artificial intelligence.
-          {/* <a
-            href="https://play.google.com/store/apps/details?id=com.emotext.chatapp"
-            target="blank"
-          >
-            EmoText
-          </a>{" "}
-          and{" "}
-          <a href="http://futureducate.com" target="blank">
-            FuturEdu
-          </a>
-          . */}
-        </p>
-        <p class="intro_para">
-          I have created the following projects in my free time:
+          I'm a senior at UT Austin and am interested in tech and
+          entrepreneurship. Here's some things I've worked on:
         </p>
         <div class="project-cards-container">
           <ProjectCard
             name="Thrive Education"
-            link="https://play.google.com/store/apps/details?id=com.thethriveeducation.thrive&hl=en_US&gl=US"
+            link="https://thethriveeducation.com"
           />
           <ProjectCard
             name="EmoText"
