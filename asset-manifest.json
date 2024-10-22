@@ -1,20 +1,19 @@
 {
   "files": {
-    "main.css": "/static/css/main.accabdcf.css",
-    "main.js": "/static/js/main.c6c7703c.js",
+    "main.css": "/static/css/main.51d25097.css",
+    "main.js": "/static/js/main.d1e0c5bc.js",
     "static/js/787.5809834d.chunk.js": "/static/js/787.5809834d.chunk.js",
     "static/media/background.jpg": "/static/media/background.bc37865592bdf6f3d654.jpg",
-    "static/media/parkdex_icon.png": "/static/media/parkdex_icon.3f8278105a42f3ff3c06.png",
+    "static/media/thrive_icon.png": "/static/media/thrive_icon.9e646a07073ebffc347b.png",
     "static/media/emotext_icon.png": "/static/media/emotext_icon.3e5dc060a15d4cebcf7a.png",
-    "static/media/thrive_icon.png": "/static/media/thrive_icon.cbe152adc4495ed89188.png",
     "static/media/futuredu_icon.png": "/static/media/futuredu_icon.4d62b0f77021e2e921f4.png",
     "index.html": "/index.html",
-    "main.accabdcf.css.map": "/static/css/main.accabdcf.css.map",
-    "main.c6c7703c.js.map": "/static/js/main.c6c7703c.js.map",
+    "main.51d25097.css.map": "/static/css/main.51d25097.css.map",
+    "main.d1e0c5bc.js.map": "/static/js/main.d1e0c5bc.js.map",
     "787.5809834d.chunk.js.map": "/static/js/787.5809834d.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.accabdcf.css",
-    "static/js/main.c6c7703c.js"
+    "static/css/main.51d25097.css",
+    "static/js/main.d1e0c5bc.js"
   ]
 }
